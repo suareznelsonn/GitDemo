@@ -24,6 +24,19 @@ public class hooks {
 	{
 		System.out.println("Clear the database entries");
 	}
+	
+	@After
+	public void tearDown()
+	{
+		System.out.println("Clear the database entries1");
+	}
+
+	@After
+	public void tearDown()
+	{
+		System.out.println("Clear the database entries2");
+	}
+
 
 }
 // Before->Background->Scenario->After
