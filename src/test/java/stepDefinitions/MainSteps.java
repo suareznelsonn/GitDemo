@@ -72,6 +72,9 @@ public class MainSteps {
 	public void cards_are_displayed() {
 	    // Write code here that turns the phrase above into concrete actions
 	    System.out.println("Cards are displayed");
+	    System.out.println("Cards are displayed1");
+	    System.out.println("Cards are displayed2");
+	    System.out.println("Cards are displayed3");
 	}
 
 }
