@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.TestNGRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.19 s <<< FAILURE! - in cucumberOptions.TestNGRunner
+cucumberOptions.TestNGRunner.runScenario["Users Page Default Sign Up", "Application Login"](5)  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.MainSteps.user_is_on_practice_landing_page(MainSteps.java:42)
+	at ✽.User is on Practice landing page(file:///C:/Tools2023/EclipsePrjsAut/Automation/src/test/java/features/firstProgram.feature:55)
+
+cucumberOptions.TestNGRunner.runScenario["Users Page Default Sign Up", "Application Login"](6)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.MainSteps.user_is_on_practice_landing_page(MainSteps.java:42)
+	at ✽.User is on Practice landing page(file:///C:/Tools2023/EclipsePrjsAut/Automation/src/test/java/features/firstProgram.feature:55)
+

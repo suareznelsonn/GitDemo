@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumberOptions.TestNGRunner" time="2.19" tests="9" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Tools2023\EclipsePrjsAut\Automation\target\test-classes;C:\Tools2023\EclipsePrjsAut\Automation\target\classes;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Lenovo1\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Lenovo1\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lenovo1\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo1\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Tools2023\EclipseIDE\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo1\AppData\Local\Temp\surefire12226998303145575369\surefirebooter-20230912112118050_3.jar C:\Users\Lenovo1\AppData\Local\Temp\surefire12226998303145575369 2023-09-12T11-21-17_843-jvmRun1 surefire-20230912112118050_1tmp surefire_0-20230912112118050_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Tools2023\EclipsePrjsAut\Automation\target\test-classes;C:\Tools2023\EclipsePrjsAut\Automation\target\classes;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Lenovo1\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo1\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\Lenovo1\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Lenovo1\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lenovo1\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo1\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo1"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Tools2023\EclipseIDE\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Tools2023\EclipsePrjsAut\Automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo1\AppData\Local\Temp\surefire12226998303145575369\surefirebooter-20230912112118050_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+7"/>
+    <property name="user.name" value="Lenovo1"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.8+7"/>
+    <property name="localRepository" value="C:\Users\Lenovo1\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="C:\Tools2023\EclipsePrjsAut\Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Tools2023\EclipseIDE\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Tools2023/EclipseIDE/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951/jre/bin/server;C:/Tools2023/EclipseIDE/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Lenovo1\AppData\Local\Microsoft\WindowsApps;;C:\Tools2023\EclipseIDE\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.8+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Admin Page Default Login&quot;, &quot;Application Login&quot;](1)" classname="cucumberOptions.TestNGRunner" time="0.123">
+    <system-out><![CDATA[
+@RegressionTest
+Scenario: Admin Page Default Login                         # src/test/java/features/firstProgram.feature:11
+*****************************
+Setup the entries in database
+  Given Setup the entries in database                      # stepDefinitions.MainSteps.setup_the_entries_in_database()
+launch the browser from config variables
+  When launch the browser from config variables            # stepDefinitions.MainSteps.launch_the_browser_from_config_variables()
+hit the home page url of banking site
+  And hit the home page url of banking site                # stepDefinitions.MainSteps.hit_the_home_page_url_of_banking_site()
+User is on NetBanking landing page
+  Given User is on NetBanking landing page                 # stepDefinitions.MainSteps.user_is_on_net_banking_landing_page()
+"admin" and the password is "1234"
+  When User login into application with "admin" and "1234" # stepDefinitions.MainSteps.user_login_into_application_with_and(java.lang.String,java.lang.String)
+Home Page is displayed
+  Then Home Page is displayed                              # stepDefinitions.MainSteps.home_page_is_displayed()
+Cards are displayed
+  And Cards are displayed                                  # stepDefinitions.MainSteps.cards_are_displayed()
+Clear the database entries
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User Page Default Login&quot;, &quot;Application Login&quot;](2)" classname="cucumberOptions.TestNGRunner" time="0.017">
+    <system-out><![CDATA[
+@SmokeTest @RegressionTest
+Scenario: User Page Default Login                         # src/test/java/features/firstProgram.feature:20
+*****************************
+Setup the entries in database
+  Given Setup the entries in database                     # stepDefinitions.MainSteps.setup_the_entries_in_database()
+launch the browser from config variables
+  When launch the browser from config variables           # stepDefinitions.MainSteps.launch_the_browser_from_config_variables()
+hit the home page url of banking site
+  And hit the home page url of banking site               # stepDefinitions.MainSteps.hit_the_home_page_url_of_banking_site()
+User is on NetBanking landing page
+  Given User is on NetBanking landing page                # stepDefinitions.MainSteps.user_is_on_net_banking_landing_page()
+"user" and the password is "0953"
+  When User login into application with "user" and "0953" # stepDefinitions.MainSteps.user_login_into_application_with_and(java.lang.String,java.lang.String)
+Home Page is displayed
+  Then Home Page is displayed                             # stepDefinitions.MainSteps.home_page_is_displayed()
+Cards are displayed
+  And Cards are displayed                                 # stepDefinitions.MainSteps.cards_are_displayed()
+Clear the database entries
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User Page Default Login&quot;, &quot;Application Login&quot;](3)" classname="cucumberOptions.TestNGRunner" time="0.025">
+    <system-out><![CDATA[
+@SmokeTest
+Scenario Outline: User Page Default Login                    # src/test/java/features/firstProgram.feature:38
+*****************************
+Setup the entries in database
+  Given Setup the entries in database                        # stepDefinitions.MainSteps.setup_the_entries_in_database()
+launch the browser from config variables
+  When launch the browser from config variables              # stepDefinitions.MainSteps.launch_the_browser_from_config_variables()
+hit the home page url of banking site
+  And hit the home page url of banking site                  # stepDefinitions.MainSteps.hit_the_home_page_url_of_banking_site()
+User is on NetBanking landing page
+  Given User is on NetBanking landing page                   # stepDefinitions.MainSteps.user_is_on_net_banking_landing_page()
+76789456 and the password is hello32
+  When User login into application with 76789456 and hello32 # stepDefinitions.MainSteps.user_login_into_application_with_and(java.lang.String,java.lang.String)
+Home Page is displayed
+  Then Home Page is displayed                                # stepDefinitions.MainSteps.home_page_is_displayed()
+Cards are displayed
+  And Cards are displayed                                    # stepDefinitions.MainSteps.cards_are_displayed()
+Clear the database entries
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User Page Default Login&quot;, &quot;Application Login&quot;](4)" classname="cucumberOptions.TestNGRunner" time="0.029">
+    <system-out><![CDATA[
+@SmokeTest
+Scenario Outline: User Page Default Login                    # src/test/java/features/firstProgram.feature:39
+*****************************
+Setup the entries in database
+  Given Setup the entries in database                        # stepDefinitions.MainSteps.setup_the_entries_in_database()
+launch the browser from config variables
+  When launch the browser from config variables              # stepDefinitions.MainSteps.launch_the_browser_from_config_variables()
+hit the home page url of banking site
+  And hit the home page url of banking site                  # stepDefinitions.MainSteps.hit_the_home_page_url_of_banking_site()
+User is on NetBanking landing page
+  Given User is on NetBanking landing page                   # stepDefinitions.MainSteps.user_is_on_net_banking_landing_page()
+56899346 and the password is mac1234
+  When User login into application with 56899346 and mac1234 # stepDefinitions.MainSteps.user_login_into_application_with_and(java.lang.String,java.lang.String)
+Home Page is displayed
+  Then Home Page is displayed                                # stepDefinitions.MainSteps.home_page_is_displayed()
+Cards are displayed
+  And Cards are displayed                                    # stepDefinitions.MainSteps.cards_are_displayed()
+Clear the database entries
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Users Page Default Sign Up&quot;, &quot;Application Login&quot;](5)" classname="cucumberOptions.TestNGRunner" time="0.072">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.MainSteps.user_is_on_practice_landing_page(MainSteps.java:42)
+	at ✽.User is on Practice landing page(file:///C:/Tools2023/EclipsePrjsAut/Automation/src/test/java/features/firstProgram.feature:55)
+]]></failure>
+    <system-out><![CDATA[
+@RegressionTest
+Scenario Outline: Users Page Default Sign Up    # src/test/java/features/firstProgram.feature:67
+*****************************
+Setup the entries in database
+  Given Setup the entries in database           # stepDefinitions.MainSteps.setup_the_entries_in_database()
+launch the browser from config variables
+  When launch the browser from config variables # stepDefinitions.MainSteps.launch_the_browser_from_config_variables()
+hit the home page url of banking site
+  And hit the home page url of banking site     # stepDefinitions.MainSteps.hit_the_home_page_url_of_banking_site()
+User is on Practice landing page
+  Given User is on Practice landing page        # stepDefinitions.MainSteps.user_is_on_practice_landing_page()
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.MainSteps.user_is_on_practice_landing_page(MainSteps.java:42)
+	at âœ½.User is on Practice landing page(file:///C:/Tools2023/EclipsePrjsAut/Automation/src/test/java/features/firstProgram.feature:55)
+
+  When User Signup into application             # stepDefinitions.MainSteps.user_signup_into_application(java.util.List<java.lang.String>)
+    | 76789456         |
+    | hello32          |
+    | email1@gmail.com |
+    | 32678888         |
+  Then Home Page is displayed                   # stepDefinitions.MainSteps.home_page_is_displayed()
+  And Cards are displayed                       # stepDefinitions.MainSteps.cards_are_displayed()
+Clear the database entries
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Users Page Default Sign Up&quot;, &quot;Application Login&quot;](6)" classname="cucumberOptions.TestNGRunner" time="0.02">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.MainSteps.user_is_on_practice_landing_page(MainSteps.java:42)
+	at ✽.User is on Practice landing page(file:///C:/Tools2023/EclipsePrjsAut/Automation/src/test/java/features/firstProgram.feature:55)
+]]></failure>
+    <system-out><![CDATA[
+@RegressionTest
+Scenario Outline: Users Page Default Sign Up    # src/test/java/features/firstProgram.feature:68
+*****************************
+Setup the entries in database
+  Given Setup the entries in database           # stepDefinitions.MainSteps.setup_the_entries_in_database()
+launch the browser from config variables
+  When launch the browser from config variables # stepDefinitions.MainSteps.launch_the_browser_from_config_variables()
+hit the home page url of banking site
+  And hit the home page url of banking site     # stepDefinitions.MainSteps.hit_the_home_page_url_of_banking_site()
+User is on Practice landing page
+  Given User is on Practice landing page        # stepDefinitions.MainSteps.user_is_on_practice_landing_page()
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.MainSteps.user_is_on_practice_landing_page(MainSteps.java:42)
+	at âœ½.User is on Practice landing page(file:///C:/Tools2023/EclipsePrjsAut/Automation/src/test/java/features/firstProgram.feature:55)
+
+  When User Signup into application             # stepDefinitions.MainSteps.user_signup_into_application(java.util.List<java.lang.String>)
+    | 56899346         |
+    | mac1234          |
+    | email2@gmail.com |
+    | 31678999         |
+  Then Home Page is displayed                   # stepDefinitions.MainSteps.home_page_is_displayed()
+  And Cards are displayed                       # stepDefinitions.MainSteps.cards_are_displayed()
+Clear the database entries
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User Page Default Login&quot;, &quot;Application Login&quot;](7)" classname="cucumberOptions.TestNGRunner" time="0.007">
+    <system-out><![CDATA[
+@SmokeTest @RegressionTest @NetBanking
+Scenario: User Page Default Login                         # src/test/java/features/secondProgram.feature:12
+----------------------------------------
+Setup the entries in NetBanking database
+launch the browser from config variables
+  When launch the browser from config variables           # stepDefinitions.MainSteps.launch_the_browser_from_config_variables()
+hit the home page url of banking site
+  And hit the home page url of banking site               # stepDefinitions.MainSteps.hit_the_home_page_url_of_banking_site()
+User is on NetBanking landing page
+  Given User is on NetBanking landing page                # stepDefinitions.MainSteps.user_is_on_net_banking_landing_page()
+"user" and the password is "0953"
+  When User login into application with "user" and "0953" # stepDefinitions.MainSteps.user_login_into_application_with_and(java.lang.String,java.lang.String)
+Home Page is displayed
+  Then Home Page is displayed                             # stepDefinitions.MainSteps.home_page_is_displayed()
+Cards are displayed
+  And Cards are displayed                                 # stepDefinitions.MainSteps.cards_are_displayed()
+Clear the database entries
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User Page Default Login&quot;, &quot;Application Login&quot;](8)" classname="cucumberOptions.TestNGRunner" time="0.034">
+    <system-out><![CDATA[
+@SmokeTest @Mortage
+Scenario Outline: User Page Default Login                    # src/test/java/features/secondProgram.feature:30
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Setup the entries in Mortage database
+launch the browser from config variables
+  When launch the browser from config variables              # stepDefinitions.MainSteps.launch_the_browser_from_config_variables()
+hit the home page url of banking site
+  And hit the home page url of banking site                  # stepDefinitions.MainSteps.hit_the_home_page_url_of_banking_site()
+User is on NetBanking landing page
+  Given User is on NetBanking landing page                   # stepDefinitions.MainSteps.user_is_on_net_banking_landing_page()
+76789456 and the password is hello32
+  When User login into application with 76789456 and hello32 # stepDefinitions.MainSteps.user_login_into_application_with_and(java.lang.String,java.lang.String)
+Home Page is displayed
+  Then Home Page is displayed                                # stepDefinitions.MainSteps.home_page_is_displayed()
+Cards are displayed
+  And Cards are displayed                                    # stepDefinitions.MainSteps.cards_are_displayed()
+Clear the database entries
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User Page Default Login&quot;, &quot;Application Login&quot;](9)" classname="cucumberOptions.TestNGRunner" time="0.012">
+    <system-out><![CDATA[
+@SmokeTest @Mortage
+Scenario Outline: User Page Default Login                    # src/test/java/features/secondProgram.feature:31
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Setup the entries in Mortage database
+launch the browser from config variables
+  When launch the browser from config variables              # stepDefinitions.MainSteps.launch_the_browser_from_config_variables()
+hit the home page url of banking site
+  And hit the home page url of banking site                  # stepDefinitions.MainSteps.hit_the_home_page_url_of_banking_site()
+User is on NetBanking landing page
+  Given User is on NetBanking landing page                   # stepDefinitions.MainSteps.user_is_on_net_banking_landing_page()
+56899346 and the password is mac1234
+  When User login into application with 56899346 and mac1234 # stepDefinitions.MainSteps.user_login_into_application_with_and(java.lang.String,java.lang.String)
+Home Page is displayed
+  Then Home Page is displayed                                # stepDefinitions.MainSteps.home_page_is_displayed()
+Cards are displayed
+  And Cards are displayed                                    # stepDefinitions.MainSteps.cards_are_displayed()
+Clear the database entries
+]]></system-out>
+  </testcase>
+</testsuite>
