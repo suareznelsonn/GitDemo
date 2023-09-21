@@ -12,6 +12,20 @@ public class hooks {
 		System.out.println("Setup the entries in NetBanking database");
 	}
 	
+	@Before("@NetBanking1")
+	public void netBankingSetup()
+	{
+		System.out.println("----------------------------------------");
+		System.out.println("Setup the entries in NetBanking database");
+	}
+	
+	@Before("@NetBanking2")
+	public void netBankingSetup()
+	{
+		System.out.println("----------------------------------------");
+		System.out.println("Setup the entries in NetBanking database");
+	}
+	
 	@Before("@Mortage")
 	public void mortageSetup()
 	{
